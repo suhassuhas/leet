@@ -26,6 +26,7 @@ class Solution:
     quot = 1 2
 
     22 + 2 =24
+    T(N) = O(log dividend)
     '''
     def divide(self, dividend: int, divisor: int) -> int:
         def longDivision(a,b):
