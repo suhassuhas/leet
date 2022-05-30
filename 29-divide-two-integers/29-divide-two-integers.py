@@ -1,4 +1,32 @@
 class Solution:
+    '''
+    100
+    3
+    sum =  3 6 12 24 48 96
+    quot = 1 2 4  8  16 32
+
+    recursive_func
+
+    4
+    3
+    sum = 3
+    quot = 1
+
+    32 + 1 = 33
+
+    167
+    9
+
+    sum =  9 18 36 72 144
+    quot = 1 2  4  8  16
+
+    167-144 = 22
+
+    sum =  9 18
+    quot = 1 2
+
+    22 + 2 =24
+    '''
     def divide(self, dividend: int, divisor: int) -> int:
         def longDivision(a,b):
             if a<b:
