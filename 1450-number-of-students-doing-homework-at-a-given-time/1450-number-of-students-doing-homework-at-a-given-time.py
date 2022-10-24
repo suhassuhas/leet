@@ -5,6 +5,6 @@ class Solution:
         for i in range(n):
             sT = startTime[i]
             eT = endTime[i]
-            if queryTime in range(sT,eT+1):
+            if queryTime>=sT and queryTime <=eT:
                 ans+=1
         return ans
