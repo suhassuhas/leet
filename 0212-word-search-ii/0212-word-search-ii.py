@@ -13,8 +13,8 @@ class TrieNode:
         cur.isWord = True
         
     def pruneWord(self, word) -> None:
-        cur: TrieNode = self
-        nodeAndChildKey: list[tuple[TrieNode, str]] = []
+        cur = self
+        nodeAndChildKey = []
         for char in word:
             nodeAndChildKey.append((cur, char))
             cur = cur.children[char]
